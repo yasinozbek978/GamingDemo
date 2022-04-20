@@ -19,7 +19,7 @@ namespace GamingDemo.Concrete
         {
             if (_gamerCheckService.CheckGamerIfRealPerson(gamer) == true)
             {
-                Console.WriteLine("Tebrikler ! " + gamer.FirstName + " " + gamer.LastName + " adlı oyuncu başarıyl eklendi");
+                Console.WriteLine("Tebrikler ! " + gamer.FirstName + " " + gamer.LastName + " adlı oyuncu başarıyla eklendi");
             }
             else
             {
